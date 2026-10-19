@@ -1,0 +1,11 @@
+run,platform,parameter_set,cpu_mhz,opt_level,iterations,keygen_us,encaps_us,decaps_us,peak_stack_bytes,notes
+H1,host_x86_64,512,,O2,1000,21.4,23.8,30.5,,ThinkPad X1 Yoga Gen 8
+H2,host_x86_64,768,,O2,1000,34.2,35.5,43.5,,ThinkPad X1 Yoga Gen 8
+H3,host_x86_64,1024,,O2,1000,53.5,55.6,65.0,,ThinkPad X1 Yoga Gen 8
+1,esp32s3,768,240,O2,20,6669.0,7017.4,8373.9,28028,baseline
+2,esp32s3,512,240,O2,20,4151.9,4471.4,5399.1,19900,
+3,esp32s3,1024,240,O2,20,9955.7,10490.7,12315.0,37676,
+4,esp32s3,768,160,O2,20,9859.4,10524.8,12636.5,28220,
+5,esp32s3,768,80,O2,20,19185.0,20667.0,25081.0,28028,
+6,esp32s3,768,240,O2,20,6689.9,7038.9,8395.4,28028,repeat of run 1
+7,esp32s3,768,240,Os,20,4971.8,5537.5,6547.1,27988,

@@ -1,0 +1,8 @@
+# Your board has 16 MB flash (seen in the Hello World boot log)
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+
+# Run the CPU at its full 240 MHz (Hello World ran at 160 MHz)
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+
+# Optimise for speed (-O2) instead of size (-Os)
+CONFIG_COMPILER_OPTIMIZATION_PERF=y

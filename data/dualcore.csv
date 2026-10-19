@@ -1,0 +1,4 @@
+phase,configuration,tasks,cores,exchanges,wall_time_ms,exchanges_per_s,failures
+1,one task,1,1,50,1103.7,45.3,0
+2,two tasks on two cores,2,0+1,50,712.6,70.2,0
+3,two tasks on one core,2,1,50,1103.0,45.3,0
